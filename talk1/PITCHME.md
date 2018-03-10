@@ -1,8 +1,11 @@
-## Endn application architecture for React
+# Black
+## Sharing Ressources
 
+by Michael Pöllath
+
+---?code=sample/go/server.go&lang=golang&title=Golang File
 ---
-
-### Flux Design
+### Stuff
 
 - Dispatcher: Manages Data Flow
 - Stores: Handle State & Logic
