@@ -2,7 +2,7 @@
 
 by Michael Pöllath
 
----?code=sample/go/server.go&lang=golang&title=Golang File
+---?code=talk1/sample/go/server.go&lang=golang&title=Golang File
 ---
 ### Stuff
 
