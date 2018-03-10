@@ -1,2 +1,4 @@
-# talks
-Collecition of talks i gave.
+# Talks
+Collection of talks i gave in the past.
+
+
