@@ -1,5 +1,4 @@
-# Black
-## Sharing Ressources
+# Sharing Global Ressources
 
 by Michael Pöllath
 
