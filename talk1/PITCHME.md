@@ -68,13 +68,13 @@ Lock contention!
 
 ---
 ### This is expensive!
-1. We do not lock - good
-2. CPU overhead - bad 
+1. We do not lock - good.
+2. CPU overhead - bad.
 
 ---
 ### Atomic
-1. No locking through the Dev
-3. Not many operations supported
+1. No locking through the dev.
+3. Not many operations supported.
 https://golang.org/pkg/sync/atomic/
 
 
@@ -87,15 +87,15 @@ https://golang.org/pkg/sync/atomic/
 
 ---
 ### This is good!
-1. ~ 45 times faster than channels
-2. ~ 9 times faster than locking
-3. ~ 3 times slower than the naive approach :D
+1. ~ 45 times faster than channels.
+2. ~ 9 times faster than locking.
+3. ~ 3 times slower than the naive approach. :D
 
 ---
 ### Learnings
-1. Solution is depending on your use-case
-2. Benchmarking is key for achieve good performance
-3. Go channels are not a Swiss army knife
+1. Solution is depending on your use-case.
+2. Benchmarking is key to achieve good performance.
+3. Go channels are not a Swiss army knife.
 
 ---
 ### Thank you!
