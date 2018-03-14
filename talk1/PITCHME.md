@@ -33,7 +33,7 @@ go test -bench=Counter -cpu=1,4,16
 ---
 ![Results Channel](images/channel.png)
 ---
-![Results Atomic](images/atomic.jpg)
+[Results Atomic]: https://github.com/michaelpoellath/talks/tree/master/talk1/images/atomic.jpg "Atomic"
 ---
 ---?image=images/atomic.jpg
 ---
