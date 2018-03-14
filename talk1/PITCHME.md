@@ -13,7 +13,7 @@ https://github.com/michaelpoellath
 
 ### What inspired this?
 
-Check out the Go-Talk from Bjorn Rabenstein:
+Check out the Go-Talk from Björn Rabenstein:
 https://www.youtube.com/watch?v=1V7eJ0jN8-E
 
 ---
@@ -73,8 +73,8 @@ Lock contention!
 
 ---
 ### Atomic
-1. No locking
-2. Not many operations supported
+1. No locking through the Dev
+3. Not many operations supported
 https://golang.org/pkg/sync/atomic/
 
 
@@ -87,14 +87,15 @@ https://golang.org/pkg/sync/atomic/
 
 ---
 ### This is good!
-~ 45 times faster than channels
-~ 9 times faster than locking
-~ 3 times slower than the naive approach :D
+1. ~ 45 times faster than channels
+2. ~ 9 times faster than locking
+3. ~ 3 times slower than the naive approach :D
 
 ---
 ### Learnings
-1. Solution is depending on your use-case.
-2. Benchmark at some point.
+1. Solution is depending on your use-case
+2. Benchmarking is key for achieve good performance
+3. Go channels are not a Swiss army knife
 
 ---
 ### Thank you!
