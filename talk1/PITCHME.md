@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=1V7eJ0jN8-E
 2.It needs to be goroutine safe.
 ---?code=talk1/sample/interface/interface.go&lang=golang&title=Interface
 ---?code=talk1/sample/naive/naive_approach.go&lang=golang&title=Naive implementation
----?code=talk1/sample/naive/naive_approach_test.go&lang=golang&title=Benchmark
+---?code=talk1/sample/naive/bench.go&lang=golang&title=Benchmark
 
 ---
 ### What is bad about this ?
