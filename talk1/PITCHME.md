@@ -26,10 +26,13 @@ https://www.youtube.com/watch?v=1V7eJ0jN8-E
 ### How to Benchmark
 
 go test -bench=Counter -cpu=1,4,16
-
+---
 ![Results Naive](images/naive.png)
+---
 ![Results Mutex](images/mutex.png)
+---
 ![Results Channel](images/channel.png)
+---
 ![Results Atomic](images/atomic.png)
 
 ---
