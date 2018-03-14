@@ -1,3 +1,5 @@
+package main
+
 import "errors"
 
 type counter struct {
@@ -11,3 +13,6 @@ func (c *counter) Add(v int) {
 	c.value += v
 }
 
+func (c counter) Write() int {
+	return c.value
+}
