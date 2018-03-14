@@ -58,6 +58,8 @@ Lock contention!
 
 ---
 ### Maybe channels?
+Don't communicate by sharing memory; share memory by communicating. (R. Pike)
+
 
 ---?code=talk1/sample/go_channel/go_channel.go&lang=golang&title=Channel implemenation
 ---?code=talk1/sample/go_channel/bench.go&lang=golang&title=Channel benchmark
