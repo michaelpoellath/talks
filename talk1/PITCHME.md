@@ -33,7 +33,7 @@ go test -bench=Counter -cpu=1,4,16
 ---
 ![Results Channel](images/channel.png)
 ---
-![Results Atomic](images/atomic.png)
+![Results Atomic](images/atomic.jpg)
 
 ---
 ### What is bad about this ?
