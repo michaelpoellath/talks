@@ -31,9 +31,9 @@ go test -bench=Counter -cpu=1,4,16
 ---
 ![Results Mutex](images/mutex.png)
 ---
-![Results Channel](images/channel.png)
+![Results Channel](https://github.com/michaelpoellath/talks/tree/master/talk1/images/channel.png)
 ---
-[Results Atomic]: https://github.com/michaelpoellath/talks/tree/master/talk1/images/atomic.jpg "Atomic"
+![Results Atomic](https://github.com/michaelpoellath/talks/tree/master/talk1/images/atomic.jpg)
 ---
 ---?image=images/atomic.jpg
 ---
