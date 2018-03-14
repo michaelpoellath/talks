@@ -34,7 +34,8 @@ go test -bench=Counter -cpu=1,4,16
 ![Results Channel](images/channel.png)
 ---
 ![Results Atomic](images/atomic.jpg)
-
+---
+---?image=images/atomic.jpg
 ---
 ### What is bad about this ?
 1. It is not goroutine safe. 
