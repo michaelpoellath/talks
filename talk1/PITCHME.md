@@ -1,4 +1,4 @@
-## Sharing Mutable Memory
+## Sharing Mutable State
 
 
 ---
