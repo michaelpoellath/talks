@@ -8,15 +8,12 @@ func BenchmarkChannelCounter100(b *testing.B) {
 		out: make(chan int),
 	}
 	benchmarkAddAndWriteWithRoutine(b, c, 100)
-
 }
 
 func BenchmarkChannelCounter10(b *testing.B) {
-	in := make(chan int)
-	out := make(chan int)
 	c := &counter{
-		in:  in,
-		out: out,
+		in:  make(chan int),
+		out: make(chan int),
 	}
 	benchmarkAddAndWriteWithRoutine(b, c, 10)
 }

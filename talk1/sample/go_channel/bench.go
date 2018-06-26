@@ -14,6 +14,7 @@ func benchmarkAddAndWriteWithRoutine(b *testing.B, c *counter, concurrency int) 
 	end.Add(concurrency)
 	n := b.N / concurrency
 
+	go c.loop()
 	for i := 0; i < concurrency; i++ {
 		go func() {
 			start.Wait()

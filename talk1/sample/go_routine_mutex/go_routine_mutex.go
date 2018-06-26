@@ -1,6 +1,9 @@
 package main
 
-import "sync"
+import (
+	"errors"
+	"sync"
+)
 
 type counter struct {
 	value int
@@ -10,6 +13,9 @@ type counter struct {
 func (c *counter) Add(v int) {
 	c.mut.Lock()
 	defer c.mut.Unlock()
+	if v < 0 {
+		panic(errors.New("counter cannot decrease"))
+	}
 	c.value += v
 }
 
