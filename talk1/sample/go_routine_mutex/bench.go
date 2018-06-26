@@ -1,12 +1,12 @@
 package main
 
-//Benchmark with go routines
 import (
 	"fmt"
 	"sync"
 	"testing"
 )
 
+//Benchmark with go routines
 func benchmarkAddAndWriteWithRoutine(b *testing.B, c *counter, concurrency int) {
 	b.StopTimer()
 	var start, end sync.WaitGroup
